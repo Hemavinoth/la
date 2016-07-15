@@ -18,10 +18,6 @@ int mul = fact(len);
 int rank = 1;
 int countRight;
 int i;
-for(i=0;i<len;++i)
-{
-mul/=len-i;
-countRight=findSmallerInRight(str,i,len-1);
 rank+=countRight*mul;
 }
 return rank;
