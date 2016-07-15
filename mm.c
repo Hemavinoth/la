@@ -43,12 +43,6 @@ case 2:
 printf("The cost is 3:\n");
 printf("Enter the position to delete\n");
 scanf("%d",&p);
-l=strlen(a);
-for(i=p-1;i<l;i++)
-{
-a[i]=a[i+1];
-}
-printf("After deleting\n");
 printf("%s",a);
 c=c+3;
 printf("Do you want to continue?y->1/no->0\n");
