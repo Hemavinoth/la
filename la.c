@@ -6,9 +6,7 @@ public class Num23 {
 		int count=3;
 		int n=count;
 		char temp;
-      int len=args[0].length();
-      len=len-1;
-      char[] c=args[0].toCharArray();
+  
       while(count!=0)
       {
     	  int b=0;
